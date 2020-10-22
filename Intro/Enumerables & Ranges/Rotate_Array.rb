@@ -25,3 +25,17 @@ puts
 
 print rotate_array([ "a", "b", "c", "d" ], 2) # => [ "c", "d", "a", "b" ]
 puts
+
+
+
+##After watching the video:
+
+
+def rotate_array(arr, num)
+  num.times do
+    ele=arr.pop
+    arr.unshift(ele)
+  end
+  return pop
+end
+
