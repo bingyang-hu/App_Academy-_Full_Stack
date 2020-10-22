@@ -32,3 +32,8 @@ puts is_valid_name("Kush Patel")       # => true
 puts is_valid_name("Daniel")           # => false
 puts is_valid_name("Robert Downey Jr") # => true
 puts is_valid_name("ROBERT DOWNEY JR") # => false
+
+
+##After watching the video:
+#1. The parameter of function is_capitalized can be a string rather than array. Otherwise the original name needs to be splited duplicated twice.
+
